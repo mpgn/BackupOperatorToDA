@@ -40,6 +40,11 @@ The code is really simple, there is only 3 steps:
 2. `RegOpenKeyExA` : Opens the specified registry key
 3. `RegSaveKeyA` : Saves the specified key and all of its subkeys and values to a new file
 
+### Solution for Linux:
+
+If you wanto to use impacket to exploit this : [Dumping SAM and LSA Secrets - The Hacker Recipes](https://www.thehacker.recipes/ad/movement/credentials/dumping/sam-and-lsa-secrets#exfiltration)
+
+
 ### Blackfield from HackTheBox
 
 This box was designed by [aas_s3curity](https://twitter.com/aas_s3curity) to exploit a user from the group "Backup Operators" to become domain admin and get the root flag.
